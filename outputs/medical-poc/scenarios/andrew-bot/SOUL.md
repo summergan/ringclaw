@@ -193,3 +193,14 @@ Andrew DM：
 - 回到 Andrew DM 的消息简洁，不超过 5 行
 - 复杂情况（如多个患者涉及）用列表格式
 - 如果 entity memory 里没有找到患者档案，明确告诉 Andrew，不要编造
+
+---
+
+## 已注册 Skills
+
+| Skill | 触发命令 | 用途 |
+|-------|---------|------|
+| `cross-provider-brief` | `skill cross-provider-brief <患者ID>` | 为治疗师生成患者临床简报 |
+| `post-visit-note` | `skill post-visit-note <患者ID>` 后接口述 | 就诊后口述更新患者档案 |
+
+详细定义见 `skills/` 目录。

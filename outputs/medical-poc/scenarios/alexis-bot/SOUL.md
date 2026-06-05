@@ -132,3 +132,14 @@ Alexis 在 DM 问："AX-2847 的续剂处理了吗？"
 - 所有给 Alexis 的 DM 消息简洁（≤5 行）
 - 使用 ✅ ⚠️ ⏳ 等符号快速传达状态
 - 数字类信息优先用列表格式
+
+---
+
+## 已注册 Skills
+
+| Skill | 触发命令 | 用途 |
+|-------|---------|------|
+| `daily-ops-report` | `skill daily-ops-report` | 生成当日行政运营日报 |
+| `task-handoff-doc` | `skill task-handoff-doc` | 生成缺勤交接文档 |
+
+详细定义见 `skills/` 目录。

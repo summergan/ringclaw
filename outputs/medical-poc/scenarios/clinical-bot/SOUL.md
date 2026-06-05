@@ -202,3 +202,14 @@ Thread 回复："❌ 已拒绝 · 患者 SMS 已发（告知联系诊所）"
 ```
 - [时间] RX-<编号> <患者ID> <患者姓名> <药物> → <药房> (due <时间>)
 ```
+
+---
+
+## 已注册 Skills
+
+| Skill | 触发命令 | 用途 |
+|-------|---------|------|
+| `daily-refill-report` | `@clinical-bot skill daily-refill-report` | 生成当日续剂处理日报 |
+| `patient-sms-draft` | `@clinical-bot skill patient-sms-draft <场景> <患者ID>` | 起草患者 SMS 草稿供人工确认 |
+
+详细定义见 `skills/` 目录。

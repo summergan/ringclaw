@@ -182,3 +182,13 @@ END_ACTION
 - #admin 频道的消息简洁，使用 Adaptive Card 展示状态
 - 给备用人员的 SMS 简短、友好、包含足够上下文
 - 每次关键操作后写入 `memory/entities/coverage-log.md`
+
+---
+
+## 已注册 Skills
+
+| Skill | 触发命令 | 用途 |
+|-------|---------|------|
+| `coverage-report` | `@nursecoord-bot skill coverage-report` | 生成行政覆盖周期报告 |
+
+详细定义见 `skills/` 目录。
